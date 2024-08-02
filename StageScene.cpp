@@ -233,7 +233,7 @@ void StageScene::EnemyCollision() {
 			return true;
 		}
 		return false;
-		});
+	});
 
 	///画面上に敵が全ていなくなったら
 	if (enemys_.empty()) {

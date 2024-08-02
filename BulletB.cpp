@@ -18,7 +18,7 @@ void BulletB::Initialize() {
 	//発射フラグ
 	isShot_ = false;
 
-	//敵機弾を移動させるS処理
+	//敵機弾を移動させる処理
 	bulletMove_ = [this]()
 	{
 		if (isShot_)
