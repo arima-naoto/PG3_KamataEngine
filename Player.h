@@ -11,10 +11,6 @@ class Player
 {
 public://メンバ関数
 
-	///デストラクタ
-	~Player();
-
-
 	///初期化処理
 	void Initialize();
 

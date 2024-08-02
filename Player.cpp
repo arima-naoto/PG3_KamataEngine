@@ -1,12 +1,5 @@
 #include "Player.h"
 
-//delete処理
-Player::~Player(){
-	for (auto* bullet : bullets_) {
-		delete bullet;
-	}
-}
-
 /// 初期化処理
 void Player::Initialize() {
 
