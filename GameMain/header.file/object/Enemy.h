@@ -1,7 +1,7 @@
 #pragma once
-#include "MyStruct.h"
+#include "GameMain/header.file/other/MyStruct.h"
+#include "GameMain/header.file/object/BulletB.h"
 #include "functional"
-#include "BulletB.h"
 
 /// <summary>
 /// Enemyクラスの宣言

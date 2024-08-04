@@ -1,4 +1,4 @@
-#include "StageScene.h"
+#include "GameMain/header.file/scene/StageScene.h"
 #define PARTICLE_MAX 150 //パーティクルを生成する最大数
 #define ENEMY_MAX 10 //画面上に敵機を表示する最大数
 
@@ -15,7 +15,7 @@ void StageScene::Initialize() {
 	inputHander_ = new InputHandler();
 
 	//InputHanderクラスからプレイヤーを各方向に移動させるメンバ関数を呼び出す
-	inputHander_->AssignMoveRIghtCommand2PressKeyD();
+	inputHander_->AssignMoveRightCommand2PressKeyD();
 	inputHander_->AssignMoveLeftCommand2PressKeyA();
 	inputHander_->AssignMoveUpCommand2PressKeyW();
 	inputHander_->AssignMoveDownCommand2PressKeyS();

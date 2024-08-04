@@ -1,4 +1,4 @@
-#include "MyStruct.h"
+#include "GameMain/header.file/other/MyStruct.h"
 
 bool IsCollision(const Vector2& obj1, const Vector2& obj2, const Vector2& obj1Radius, const Vector2& obj2Radius) {
 

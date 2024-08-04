@@ -1,5 +1,5 @@
 #pragma once
-#include "ICommand.h"
+#include "GameMain/header.file/other/ICommand.h"
 
 /// <summary>
 /// InputHandleクラスの宣言

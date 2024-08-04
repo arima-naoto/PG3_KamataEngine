@@ -1,27 +1,33 @@
 #pragma once
-
-#include "MyStruct.h"
+#include "GameMain/header.file/other/MyStruct.h"
 #include "functional"
 
 /// <summary>
-/// Particleクラスを宣言
+/// 基底クラスBulletを宣言
 /// </summary>
-class Particle
+class Bullet
 {
 public://メンバ関数
 
 	///初期化処理
-	void Initialize();
+	virtual void Initialize();
 
 	///更新処理
-	void Update();
+	virtual void Update();
+
 	///描画処理
-	void Draw();
+	virtual void Draw();
 
 #pragma region カプセル化とアクセッサ
 
+	///座標getter
+	Vector2 GetPos();
+
 	///座標setter
 	void SetPosition(Vector2 pos);
+
+	///半径getter
+	Vector2 GetRadius();
 
 	///発射フラグgetter
 	bool GetIsShot();
@@ -29,23 +35,27 @@ public://メンバ関数
 	///発射フラグsetter
 	bool SetIsShot(bool isShot);
 
-#pragma endregion 
+#pragma endregion
 
-
-private:///メンバ変数
+protected:///メンバ変数
 
 	///座標
 	Vector2 pos_;
+
 	///半径
-	int radius_;
+	Vector2 radius_;
+	
 	///移動速度
 	int speed_;
-	///パーティクルの色
+	
+	///弾の色
 	unsigned int color_;
-	///ショットフラグ
+	
+	///発射フラグ
 	bool isShot_;
-
-	std::function<void()> particleMove_;
+	
+	///弾の移動処理を保持するメンバ変数
+	std::function<void()> bulletMove_;
 
 };
 

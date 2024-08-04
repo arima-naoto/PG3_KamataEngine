@@ -1,5 +1,5 @@
 #pragma once
-#include "Bullet.h"
+#include "GameMain/header.file/object/Bullet.h"
 
 class BulletA : public Bullet
 {

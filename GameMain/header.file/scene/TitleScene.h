@@ -1,5 +1,5 @@
 #pragma once
-#include "IScene.h"
+#include "GameMain/header.file/scene/IScene.h"
 
 /// <summary>
 /// ISceneクラスを継承したTitleSceneクラスを宣言

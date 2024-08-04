@@ -1,7 +1,7 @@
 #pragma once
 #define SHOT_MAX 2
-#include "MyStruct.h"
-#include "BulletA.h"
+#include "GameMain/header.file/other/MyStruct.h"
+#include "GameMain/header.file/object/BulletA.h"
 #include "list"
 
 /// <summary>

@@ -1,4 +1,4 @@
-#include "Enemy.h"
+#include "GameMain/header.file/object/Enemy.h"
 
 /// <summary>
 /// 初期化処理

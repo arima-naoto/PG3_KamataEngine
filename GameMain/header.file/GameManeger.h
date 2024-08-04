@@ -1,9 +1,9 @@
 #pragma once
 #include <memory>
-#include "IScene.h"
-#include "TitleScene.h"
-#include "StageScene.h"
-#include "ClearScene.h"
+#include "GameMain/header.file/scene/IScene.h"
+#include "GameMain/header.file/scene/TitleScene.h"
+#include "GameMain/header.file/scene/StageScene.h"
+#include "GameMain/header.file/scene/ClearScene.h"
 
 class GameManeger
 {

@@ -1,11 +1,10 @@
 #pragma once
-#include "IScene.h"
-#include "InputHandler.h"
-#include "ICommand.h"
-#include "Particle.h"
-#include "Player.h"
-#include "Enemy.h"
-#include "Bullet.h"
+#include "GameMain/header.file/scene/IScene.h"
+#include "GameMain/header.file/other/InputHandler.h"
+#include "GameMain/header.file/other/ICommand.h"
+#include "GameMain/header.file/object/Particle.h"
+#include "GameMain/header.file/object/Player.h"
+#include "GameMain/header.file/object/Enemy.h"
 #include "list"
 
 enum class Phase {

@@ -1,5 +1,5 @@
 #pragma once
-#include "Bullet.h"
+#include "GameMain/header.file/object/Bullet.h"
 
 /// <summary>
 /// 弾クラスの宣言(敵機用)

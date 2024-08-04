@@ -1,4 +1,4 @@
-#include "BulletB.h"
+#include "GameMain/header.file/object/BulletB.h"
 
 //初期化処理
 void BulletB::Initialize() {

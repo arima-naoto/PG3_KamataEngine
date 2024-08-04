@@ -1,4 +1,4 @@
-#include "BulletA.h"
+#include "GameMain/header.file/object/BulletA.h"
 
 ///自機弾の初期化処理
 void BulletA::Initialize() {

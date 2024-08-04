@@ -1,4 +1,4 @@
-#include "ICommand.h"
+#include "GameMain/header.file/other/ICommand.h"
 
 ///仮想デストラクタの定義
 ICommand::~ICommand(){}

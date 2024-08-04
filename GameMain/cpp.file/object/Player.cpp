@@ -1,4 +1,4 @@
-#include "Player.h"
+#include "GameMain/header.file/object/Player.h"
 
 /// 初期化処理
 void Player::Initialize() {

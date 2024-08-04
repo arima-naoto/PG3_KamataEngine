@@ -1,5 +1,5 @@
 #pragma once
-#include <Player.h>
+#include "GameMain/header.file/object/Player.h"
 
 /// <summary>
 /// ICommandクラスを宣言

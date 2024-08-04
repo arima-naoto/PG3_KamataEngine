@@ -108,9 +108,9 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="BulletA.cpp" />
-    <ClCompile Include="BulletB.cpp" />
+    <ClCompile Include="GameMain\cpp.file\object\Bullet.cpp" />
+    <ClCompile Include="GameMain\cpp.file\object\BulletA.cpp" />
+    <ClCompile Include="GameMain\cpp.file\object\BulletB.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp" />
@@ -118,23 +118,23 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\TextureManager.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
-    <ClCompile Include="ClearScene.cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="GameManeger.cpp" />
-    <ClCompile Include="ICommand.cpp" />
-    <ClCompile Include="InputHandler.cpp" />
-    <ClCompile Include="IScene.cpp" />
+    <ClCompile Include="GameMain\cpp.file\scene\ClearScene.cpp" />
+    <ClCompile Include="GameMain\cpp.file\object\Enemy.cpp" />
+    <ClCompile Include="GameMain\cpp.file\GameManeger.cpp" />
+    <ClCompile Include="GameMain\cpp.file\other\ICommand.cpp" />
+    <ClCompile Include="GameMain\cpp.file\other\InputHandler.cpp" />
+    <ClCompile Include="GameMain\cpp.file\scene\IScene.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyStruct.cpp" />
-    <ClCompile Include="Particle.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="StageScene.cpp" />
-    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="GameMain\cpp.file\other\MyStruct.cpp" />
+    <ClCompile Include="GameMain\cpp.file\object\Particle.cpp" />
+    <ClCompile Include="GameMain\cpp.file\object\Player.cpp" />
+    <ClCompile Include="GameMain\cpp.file\scene\StageScene.cpp" />
+    <ClCompile Include="GameMain\cpp.file\scene\TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bullet.h" />
-    <ClInclude Include="BulletA.h" />
-    <ClInclude Include="BulletB.h" />
+    <ClInclude Include="GameMain\header.file\object\Bullet.h" />
+    <ClInclude Include="GameMain\header.file\object\BulletA.h" />
+    <ClInclude Include="GameMain\header.file\object\BulletB.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h" />
@@ -162,17 +162,17 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h" />
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
-    <ClInclude Include="ClearScene.h" />
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="GameManeger.h" />
-    <ClInclude Include="ICommand.h" />
-    <ClInclude Include="InputHandler.h" />
-    <ClInclude Include="IScene.h" />
-    <ClInclude Include="MyStruct.h" />
-    <ClInclude Include="Particle.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="StageScene.h" />
-    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="GameMain\header.file\scene\ClearScene.h" />
+    <ClInclude Include="GameMain\header.file\object\Enemy.h" />
+    <ClInclude Include="GameMain\header.file\GameManeger.h" />
+    <ClInclude Include="GameMain\header.file\other\ICommand.h" />
+    <ClInclude Include="GameMain\header.file\other\InputHandler.h" />
+    <ClInclude Include="GameMain\header.file\scene\IScene.h" />
+    <ClInclude Include="GameMain\header.file\other\MyStruct.h" />
+    <ClInclude Include="GameMain\header.file\object\Particle.h" />
+    <ClInclude Include="GameMain\header.file\object\Player.h" />
+    <ClInclude Include="GameMain\header.file\scene\StageScene.h" />
+    <ClInclude Include="GameMain\header.file\scene\TitleScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

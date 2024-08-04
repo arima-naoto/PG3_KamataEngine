@@ -1,4 +1,4 @@
-#include "Particle.h"
+#include "GameMain/header.file/object/Particle.h"
 #include "stdlib.h"
 
 /// 初期化処理
