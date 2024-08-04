@@ -64,10 +64,14 @@ void StageScene::Update(char *keys,char*preKeys) {
 		}
 
 		//パーティクルの更新処理
-		for (auto* particle : particles_) { particle->Update(); }
+		for (auto* particle : particles_) { 
+			particle->Update(); 
+		}
 
 		//敵機の更新処理
-		for (auto* enemy : enemys_) { enemy->Update(); }
+		for (auto* enemy : enemys_) { 
+			enemy->Update(); 
+		}
 
 		//自機の更新処理
 		player_->Update();
