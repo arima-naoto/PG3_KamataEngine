@@ -1,6 +1,6 @@
 #include "InputHandler.h"
 
-void InputHandler::AssignMoveRIghtCommand2PressKeyD() {
+void InputHandler::AssignMoveRightCommand2PressKeyD() {
 
 	ICommand* command = new MoveRightCommand();
 
