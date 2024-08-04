@@ -36,26 +36,39 @@ void Player::Initialize() {
 /// 更新処理
 void Player::Update() {
 
+	//SPACEキーが押されている間
 	if (Novice::CheckHitKey(DIK_SPACE)) {
 
+		//クールタイマーが0以上であれば
 		if (shotCoolTimer_ > 0) {
+
+			//クールタイマーをデクリメントする
 			shotCoolTimer_--;
 		}
-		else {
+		else //そうでなければ
+		{
+			//クールタイマーを10に設定する
 			shotCoolTimer_ = 10;
 		}
-		if (shotCoolTimer_ <= 0) {
-			for (auto* bullet : bullets_) {
-				if (!bullet->GetIsShot()) {
+		if (shotCoolTimer_ <= 0) //クールタイマーが0以下であれば
+		{
+			for (auto* bullet : bullets_) //for文で処理を繰り返す
+			{
+				if (!bullet->GetIsShot()) //発射フラグがfalseであるならば
+				{
+					//発射フラグをtrueに設定し
 					bullet->SetIsShot(true);
+					//弾の座標をプレイヤーに合わせる
 					bullet->SetPosition(Player::GetPos());
-					break;
+					break;//break文で抜ける
 				}
 			}
 		}
 	}
 
-	for (auto* bullet : bullets_) {
+	//for文を処理を繰り返し、弾の更新処理を行う
+	for (auto* bullet : bullets_) 
+	{
 		bullet->Update();
 	}
 
