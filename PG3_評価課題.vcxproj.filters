@@ -95,9 +95,6 @@
     <ClCompile Include="GameMain\cpp.file\scene\IScene.cpp">
       <Filter>GameMain\cpp.file\scene</Filter>
     </ClCompile>
-    <ClCompile Include="GameMain\cpp.file\GameManeger.cpp">
-      <Filter>GameMain\cpp.file\other</Filter>
-    </ClCompile>
     <ClCompile Include="GameMain\cpp.file\other\MyStruct.cpp">
       <Filter>GameMain\cpp.file\other</Filter>
     </ClCompile>
@@ -106,6 +103,9 @@
     </ClCompile>
     <ClCompile Include="GameMain\cpp.file\other\ICommand.cpp">
       <Filter>GameMain\cpp.file\other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain\cpp.file\GameManeger.cpp">
+      <Filter>GameMain\cpp.file</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
