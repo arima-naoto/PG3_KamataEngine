@@ -1,6 +1,5 @@
 #pragma once
-///ICommandクラスの前方宣言
-class ICommand;
+#include "ICommand.h"
 
 /// <summary>
 /// InputHandleクラスの宣言

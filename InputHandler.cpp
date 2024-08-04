@@ -1,5 +1,4 @@
 #include "InputHandler.h"
-#include "ICommand.h"
 
 void InputHandler::AssignMoveRIghtCommand2PressKeyD() {
 
