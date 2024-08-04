@@ -65,47 +65,47 @@
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
     </ClCompile>
-    <ClCompile Include="Bullet.cpp">
+    <ClCompile Include="GameMain\cpp.file\object\Bullet.cpp">
       <Filter>GameMain\cpp.file\object</Filter>
     </ClCompile>
-    <ClCompile Include="BulletA.cpp">
+    <ClCompile Include="GameMain\cpp.file\object\BulletA.cpp">
       <Filter>GameMain\cpp.file\object</Filter>
     </ClCompile>
-    <ClCompile Include="BulletB.cpp">
+    <ClCompile Include="GameMain\cpp.file\object\BulletB.cpp">
       <Filter>GameMain\cpp.file\object</Filter>
     </ClCompile>
-    <ClCompile Include="Enemy.cpp">
+    <ClCompile Include="GameMain\cpp.file\object\Enemy.cpp">
       <Filter>GameMain\cpp.file\object</Filter>
     </ClCompile>
-    <ClCompile Include="Particle.cpp">
+    <ClCompile Include="GameMain\cpp.file\object\Player.cpp">
       <Filter>GameMain\cpp.file\object</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="GameMain\cpp.file\object\Particle.cpp">
       <Filter>GameMain\cpp.file\object</Filter>
     </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
+    <ClCompile Include="GameMain\cpp.file\scene\ClearScene.cpp">
       <Filter>GameMain\cpp.file\scene</Filter>
     </ClCompile>
-    <ClCompile Include="StageScene.cpp">
+    <ClCompile Include="GameMain\cpp.file\scene\TitleScene.cpp">
       <Filter>GameMain\cpp.file\scene</Filter>
     </ClCompile>
-    <ClCompile Include="ClearScene.cpp">
+    <ClCompile Include="GameMain\cpp.file\scene\StageScene.cpp">
       <Filter>GameMain\cpp.file\scene</Filter>
     </ClCompile>
-    <ClCompile Include="IScene.cpp">
+    <ClCompile Include="GameMain\cpp.file\scene\IScene.cpp">
       <Filter>GameMain\cpp.file\scene</Filter>
     </ClCompile>
-    <ClCompile Include="MyStruct.cpp">
+    <ClCompile Include="GameMain\cpp.file\GameManeger.cpp">
       <Filter>GameMain\cpp.file\other</Filter>
     </ClCompile>
-    <ClCompile Include="InputHandler.cpp">
+    <ClCompile Include="GameMain\cpp.file\other\MyStruct.cpp">
       <Filter>GameMain\cpp.file\other</Filter>
     </ClCompile>
-    <ClCompile Include="ICommand.cpp">
+    <ClCompile Include="GameMain\cpp.file\other\InputHandler.cpp">
       <Filter>GameMain\cpp.file\other</Filter>
     </ClCompile>
-    <ClCompile Include="GameManeger.cpp">
-      <Filter>GameMain\cpp.file</Filter>
+    <ClCompile Include="GameMain\cpp.file\other\ICommand.cpp">
+      <Filter>GameMain\cpp.file\other</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -180,46 +180,46 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
-    <ClInclude Include="GameManeger.h">
+    <ClInclude Include="GameMain\header.file\object\Bullet.h">
+      <Filter>GameMain\header.file\object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\object\BulletA.h">
+      <Filter>GameMain\header.file\object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\object\BulletB.h">
+      <Filter>GameMain\header.file\object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\object\Enemy.h">
+      <Filter>GameMain\header.file\object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\object\Player.h">
+      <Filter>GameMain\header.file\object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\object\Particle.h">
+      <Filter>GameMain\header.file\object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\scene\ClearScene.h">
+      <Filter>GameMain\header.file\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\scene\IScene.h">
+      <Filter>GameMain\header.file\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\scene\TitleScene.h">
+      <Filter>GameMain\header.file\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\scene\StageScene.h">
+      <Filter>GameMain\header.file\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\header.file\GameManeger.h">
       <Filter>GameMain\header.file</Filter>
     </ClInclude>
-    <ClInclude Include="TitleScene.h">
-      <Filter>GameMain\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="StageScene.h">
-      <Filter>GameMain\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="ClearScene.h">
-      <Filter>GameMain\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="IScene.h">
-      <Filter>GameMain\header.file\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>GameMain\header.file\object</Filter>
-    </ClInclude>
-    <ClInclude Include="BulletA.h">
-      <Filter>GameMain\header.file\object</Filter>
-    </ClInclude>
-    <ClInclude Include="BulletB.h">
-      <Filter>GameMain\header.file\object</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>GameMain\header.file\object</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>GameMain\header.file\object</Filter>
-    </ClInclude>
-    <ClInclude Include="Particle.h">
-      <Filter>GameMain\header.file\object</Filter>
-    </ClInclude>
-    <ClInclude Include="ICommand.h">
+    <ClInclude Include="GameMain\header.file\other\ICommand.h">
       <Filter>GameMain\header.file\other</Filter>
     </ClInclude>
-    <ClInclude Include="InputHandler.h">
+    <ClInclude Include="GameMain\header.file\other\InputHandler.h">
       <Filter>GameMain\header.file\other</Filter>
     </ClInclude>
-    <ClInclude Include="MyStruct.h">
+    <ClInclude Include="GameMain\header.file\other\MyStruct.h">
       <Filter>GameMain\header.file\other</Filter>
     </ClInclude>
   </ItemGroup>
