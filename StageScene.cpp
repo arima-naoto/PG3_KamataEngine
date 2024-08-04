@@ -37,9 +37,8 @@ void StageScene::Initialize() {
 /// 更新処理
 void StageScene::Update(char *keys,char*preKeys) {
 
-	switch (phase_)
-	{
-	case Phase::kPlay:
+
+	if(phase_ == Phase::kPlay){
 
 #pragma region フェーズゲームプレイの更新処理
 
@@ -76,11 +75,12 @@ void StageScene::Update(char *keys,char*preKeys) {
 		///衝突判定
 		StageScene::CheckCollision();
 
+
 #pragma endregion
 
-		break;
 
-	case Phase::kDead:
+	}
+	else if (phase_ == Phase::kDead) {
 
 #pragma region 
 
@@ -103,16 +103,14 @@ void StageScene::Update(char *keys,char*preKeys) {
 
 #pragma endregion
 
-		break;
-	}	
+	}
+
 }
 
 /// 描画処理
 void StageScene::Draw() {
 	
-	switch (phase_)
-	{
-	case Phase::kPlay:
+	if (phase_ == Phase::kPlay) {
 
 #pragma region //フェーズゲームプレイの描画処理
 
@@ -134,21 +132,15 @@ void StageScene::Draw() {
 
 #pragma endregion
 
-		break;
-
-	case Phase::kDead:
+	}else if(phase_ == Phase::kDead){
 
 		//画像の読み込み
 		int DeathTextureHandle = Novice::LoadTexture("./Resources/Dead.png");
 
 		///DrawSprite関数で画像を描画する
 		Novice::DrawSprite(0, 0, DeathTextureHandle, 1, 1, 0, WHITE);
-
-		break;
 	}
 
-
-	
 }
 
 #pragma endregion
